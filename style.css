@@ -1,0 +1,41 @@
+header {
+    box-shadow: 0 1px 8px rgba(0,0,0,26);
+    margin: 3rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #1f6f8b;
+    color: white;
+    text-align: center;
+    width: 90%;
+    max-width: 40rem;
+}
+#creator {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: 3rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    width: 90%;
+    max-width: 40rem;
+}
+#creator h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid #cccccc;
+    color: black;
+    margin: 0 0 1rem 0;
+}
+#creator input {
+    font: inherit;
+    border: 1px solid #ccc;
+}
+#creator button {
+    font: inherit;
+    cursor: pointer;
+    color: white;
+    padding: 0.05rem 1rem;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+}
+#creator button:hover,
+#creator button:active {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.11);
+}
